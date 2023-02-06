@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
+body {
+    background-image: url("../images/background.jpg");
+font-family: "roboto";
+}
+h1 {
+ font-family: "Fira Code";
+    color: rgb(15, 15, 15);
+}
+#nav {
+color:#ffff00;
+text-align: left;
+display: inline;
+}
+
+li {
+    align-items: center;
+    display: inline;
+    margin: 70px;
+font-size: 25px;
+}
+li:hover {
+    color: rgb(0, 0, 0);
+    border-bottom: 3px solid rgb(20, 20, 78);
+  }
+#profile picture {
+    width: 280px;
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: .5s;
+}
+
+#intro {
+    font-weight: bolder;
+    font-size: 17px;
+  border-width: 18px;
+}
+h2{
+    font-size: 25px;
+    color: black;
+    padding-block: 50px;
+}
+form{
+    font-weight: 900;
+}
+button{
+    color: coral;
+    font-weight: 900;
+}
